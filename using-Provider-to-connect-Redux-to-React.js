@@ -67,7 +67,7 @@ class DisplayMessages extends React.Component {
   }
 };
 
-// Using Provider to Connect Redux to React
+// Using Provider to Connect Redux to React:
 const Provider = ReactRedux.Provider;
 
 class AppWrapper extends React.Component {
