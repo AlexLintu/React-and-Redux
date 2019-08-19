@@ -22,6 +22,7 @@ const decrement = () => {
 // REDUCER
 const counter = (state = 5, action) => {
   switch (action.type) {
+    // ALways returning a new state object and never mutating the initial state we started with
     case "INCREMENT":
       return state + 1; // Returning the new state (state = 6)
     case "DECREMENT":
