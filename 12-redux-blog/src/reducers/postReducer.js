@@ -13,6 +13,12 @@ export default function(state = initialState, action) {
         ...state,
         items: action.payload
       };
+    case NEW_POST:
+      console.log("Reducer 4");
+      return {
+        ...state,
+        item: action.payload
+      };
     default:
       return state;
   }
